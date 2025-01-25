@@ -1,7 +1,4 @@
 node_modules/
-Dockerfile
-fly.toml
-.dockerignore
 .DS_Store
 .env
 .env.local
