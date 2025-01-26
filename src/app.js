@@ -12,6 +12,10 @@ const gwerhRutes = require('./routes/gwerh');
 
 app.use(bodyParser.json());
 
+app.use(cors({
+  origin: 'http://localhost:3000'
+}));
+
 app.use(session({
   secret: SESSION_SECRET,
   resave: false,
