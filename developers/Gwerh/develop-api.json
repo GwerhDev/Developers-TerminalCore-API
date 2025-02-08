@@ -186,7 +186,7 @@
         ]
       },
       {
-        "published": true,
+        "published": false,
         "featured": false,
         "href": "https://hub.laruina.cl/",
         "repository": {
